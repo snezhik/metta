@@ -1,0 +1,55 @@
+html,
+body{
+    height:100%;
+}
+
+
+body{
+    font-size: 16px;
+    line-height: 26px;
+    @extend %roboto-400;
+    color: $letter;
+}
+
+
+
+.wrapper{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.container{
+    max-width: 1080px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.title{
+    font-size: 32px;
+    line-height: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    margin-bottom: 36px;
+    letter-spacing: 0.02px;
+}
+
+.link{
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: $letter;
+    transition: all.3s;
+}
+
+.text{
+    margin-bottom: 27px;
+}
+
+
+.link:hover{
+    color: $gren;
+  }
+
+
+
+
